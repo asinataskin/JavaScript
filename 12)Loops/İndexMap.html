@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Maps</h1>
+        <p>Using Map.has</p>
+        <p id="demo"></p>
+        <script>
+            const fruits = new Map([["apples",500],["bananas",300],["oranges",200]]);
+
+            fruits.delete("apples");
+            document.getElementById("demo").innerHTML=fruits.size;
+
+            
+        </script>
+    </body>
+</html>

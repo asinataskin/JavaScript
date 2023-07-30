@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Comparision</h1>
+        <h2>The() ? : Ternary Operator</h2>
+        <p>Input your age and click the Button:</p>
+        <input id="age" value="18">
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+                let age = document.getElementById("age").age
+                let votable = (age<18) ? "Too young":"Old enough";
+                document.getElementById("demo").innerHTML=votable+ " to vote";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript Date.parse</h2>
+        <p>Date.parse(stirng) returns miliseconds.</p>
+        <p>You can use the return value to convert the stirng to a date object:</p>
+        <p id="demo"></p>
+        <script>
+            let msc = Date.parse("March 21, 2012");
+            const d = new Date(msc);
+            document.getElementById("demo").innerHTML=d;
+        </script>
+    </body>
+</html>
